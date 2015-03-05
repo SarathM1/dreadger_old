@@ -1,0 +1,203 @@
+
+@import "http://fonts.googleapis.com/css?family=Open+Sans:300,400,700";
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: none repeat scroll 0 0 #567;
+    font-family: "Open Sans",sans-serif;
+}
+.button {
+    background: none repeat scroll 0 0 #3399cc;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    margin: 1% auto 0;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    transition: background 0.3s ease 0s;
+    width: 100px;
+}
+.button:hover {
+    background: none repeat scroll 0 0 #2288bb;
+}
+#login {
+    margin: 8px auto 2%;
+    transition: opacity 1s ease 0s;
+    width: 600px;
+}
+#triangle {
+    border-bottom: 12px solid #3399cc;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    margin: 0 auto;
+    width: 0;
+}
+#login h1 {
+    background: none repeat scroll 0 0 #3399cc;
+    color: #fff;
+    font-size: 140%;
+    font-weight: 300;
+    padding: 20px 0;
+    text-align: center;
+}
+form {
+    background: none repeat scroll 0 0 #f0f0f0;
+    padding: 6% 4%;
+}
+input[type="email"], input[type="password"], input[type="text"] {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #ccc;
+    color: #555;
+    font-family: "Open Sans",sans-serif;
+    font-size: 95%;
+    margin-bottom: 4%;
+    padding: 4%;
+    width: 92%;
+}
+input[type="submit"] {
+    background: none repeat scroll 0 0 #3399cc;
+    border: 0 none;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Open Sans",sans-serif;
+    font-size: 100%;
+    padding: 4%;
+    transition: background 0.3s ease 0s;
+    width: 100%;
+}
+input[type="submit"]:hover {
+    background: none repeat scroll 0 0 #2288bb;
+}
+body {
+    background-color: grey;
+    font-family: "Roboto",helvetica,arial,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-rendering: optimizelegibility;
+}
+div.table-title {
+    display: block;
+    margin: auto;
+    max-width: 600px;
+    padding: 5px;
+    width: 100%;
+}
+.table-title h3 {
+    color: #fafafa;
+    font-family: "Roboto",helvetica,arial,sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+}
+.table-fill {
+    animation: 5s ease 0s normal none infinite running float;
+    background: none repeat scroll 0 0 white;
+    border-collapse: collapse;
+    border-radius: 3px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    display: block;
+    height: 320px;
+    margin: auto;
+    max-width: 490px;
+    overflow-y: scroll;
+    padding: 5px;
+    width: 100%;
+}
+.table-fillSmall {
+    animation: 5s ease 0s normal none infinite running float;
+    background: none repeat scroll 0 0 white;
+    border-collapse: collapse;
+    border-radius: 3px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    height: 120px;
+    margin: auto;
+    max-width: 600px;
+    padding: 5px;
+    width: 100%;
+}
+th {
+    background: none repeat scroll 0 0 #1b1e24;
+    border-bottom: 4px solid #9ea7af;
+    border-right: 1px solid #343a45;
+    color: #d5dde5;
+    font-size: 23px;
+    font-weight: 100;
+    padding: 24px;
+    text-align: left;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    vertical-align: middle;
+}
+th:first-child {
+    border-top-left-radius: 3px;
+}
+th:last-child {
+    border-right: medium none;
+    border-top-right-radius: 3px;
+}
+tr {
+    border-top: 1px solid #c1c3d1;
+    color: #666b85;
+    font-size: 16px;
+    font-weight: normal;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.1);
+}
+tr:hover td {
+    background: none repeat scroll 0 0 #4e5066;
+    border-bottom: 1px solid #22262e;
+    border-top: 1px solid #22262e;
+    color: #ffffff;
+}
+tr:first-child {
+    border-top: medium none;
+}
+tr:last-child {
+    border-bottom: medium none;
+}
+tr:nth-child(2n+1) td {
+    background: none repeat scroll 0 0 #ebebeb;
+}
+tr:nth-child(2n+1):hover td {
+    background: none repeat scroll 0 0 #4e5066;
+}
+tr:last-child td:first-child {
+    border-bottom-left-radius: 3px;
+}
+tr:last-child td:last-child {
+    border-bottom-right-radius: 3px;
+}
+td {
+    background: none repeat scroll 0 0 #ffffff;
+    border-right: 1px solid #c1c3d1;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 20px;
+    text-align: left;
+    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+    vertical-align: middle;
+}
+td:last-child {
+    border-right: 0 none;
+}
+th.text-left {
+    text-align: left;
+}
+th.text-center {
+    text-align: center;
+}
+th.text-right {
+    text-align: right;
+}
+td.text-left {
+    text-align: left;
+}
+td.text-center {
+    text-align: center;
+}
+td.text-right {
+    text-align: right;
+}

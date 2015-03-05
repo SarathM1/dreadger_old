@@ -1,0 +1,12 @@
+SQL QUERIES
+
+CREATE PROCEDURE Disperse( dateM DATETIME, inter INT )
+BEGIN
+	DECLARE x DATETIME;
+	SET x = (SELECT mTime FROM dieselLevel WHERE mTime > dateM LIMIT 1);
+	iterloop : REPEAT
+		SELECT * FROM dieselLevel WHERE mTime = x;
+		x = (SELECT ADDDATE( x, INTERVAL inter DAY));
+	UNTIL x < (SELECT MAX(mTime) FROM dieselLevel)
+	END REPEAT iterloop;		
+END//

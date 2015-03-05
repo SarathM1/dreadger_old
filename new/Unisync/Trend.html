@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Trend</title>
+<link href="cssstyle/TrendStyle.css" rel="stylesheet" type="text/css" />
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(function(){
+	$("#cerceve").hide().fadeIn(500);
+	$(".show").hide();
+	$(".close").click(function(){
+		$("#cerceve").hide(500);
+		$(".show").fadeIn(500);
+	});
+	$(".show").click(function(){
+		$("#cerceve").fadeIn(500);
+		$(".show").hide(500);
+	});
+});
+</script>
+</head>
+<body>
+
+<div id="cerceve">
+<div class="header">
+<div class="text" style="float:left">Trend/Report</div>
+<div class="close" style="float:right;margin-right:20px;cursor:pointer;">Sign Out</div>
+</div>
+
+
+<div class="formbody">
+<br/>
+<div class="hometrd">
+<h2><a href=""> Home</a>
+</h2>
+</div>
+
+<div class="headingform"> 
+<form> 
+
+<table>
+<tr>
+                        <td width="260px;">
+                        <h2>From <span class="frmtm">Date/Time</span></h2></td>
+                         <td width="280px;"> <h2>To <span class="frmtm"> Date/Time</span></h2></td>
+                        
+                        </tr>
+                        <tr>
+                      <td><input class="txt" type="text"/></td>
+                       <td style="padding-left:23px;"> <input class="txt" type="text"/></td>
+                        </tr>
+                        </table>
+                       </form>
+                       
+                      
+         <div class="rpt">                 
+                <table>
+                 <div class="btn">
+                   <a href="Graph\charting\Trend_Graph.html">Trend</a></div>
+        		</table>
+         </div>      
+          
+          <div class="heading1">
+          <table>
+         <div class="btn">
+                        <a href="Report.html">Report</a></div>
+          </table>
+          </div>        
+                        
+</div>
+</div>
+</div>
+</body>
+</html>
